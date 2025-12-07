@@ -1,73 +1,69 @@
+# 🚀 AI-Dev-CLI
 
-# AI-Dev-CLI
+> An AI-powered CLI that thinks, plans, and builds like a senior full-stack developer.
 
-An AI-powered CLI that thinks, plans, and builds like a senior full-stack developer.
+AI-Dev-CLI allows developers to generate complete full-stack applications using simple natural language commands.
 
-## 🚀 Features
-- Generate full-stack projects from natural language
-- Support for multiple frameworks and languages
-- Smart project planning and structure generation
-- AI-powered code generation
+---
+
+## ✨ Features
+
+✅ Generate full-stack projects from text  
+✅ Supports multiple programming languages and frameworks  
+✅ Smart project planning and auto-generated folder structure  
+✅ AI-powered code generation using Groq / LLMs  
+
+---
 
 ## 📦 Installation
+
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/ai-dev-cli.git
+# Clone repository
+git clone https://github.com/your-username/ai-dev-cli.git
+
+# Enter project folder
 cd ai-dev-cli
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Set up environment variables
+# Create environment file
 cp .env.example .env
-# Edit .env with your API keys
-```
+Open .env file and add your API keys.
 
-## 🛠️ Usage
-```bash
-# Create a new project
-python -m aidev create "project description"
+🛠️ Usage
+bash
+Copy code
+# Create new project
+python -m aidev create "MERN blog with authentication"
 
-# Get help
+# Show help menu
 python -m aidev --help
-```
+🧠 How It Works
+Takes your project idea
 
-## 📝 License
-MIT
+Creates a development plan
 
-# AI-Dev-CLI
+Builds folder structure
 
-An AI-powered CLI that thinks, plans, and builds like a senior full-stack developer.
+Generates real, working code
 
-## 🚀 Features
-- Generate full-stack projects from natural language
-- Support for multiple frameworks and languages
-- Smart project planning and structure generation
-- AI-powered code generation
+🗂 Project Structure
+arduino
+Copy code
+aidev/
+├── cli/
+├── core/
+├── config/
+└── main.py
+🛣 Roadmap
+ Phase 1 – Core CLI Setup
 
-## 📦 Installation
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/ai-dev-cli.git
-cd ai-dev-cli
+ Phase 2 – AI Planning Engine
 
-# Install dependencies
-pip install -r requirements.txt
+ Phase 3 – Code Generator
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your API keys
-```
+ Phase 4 – Plugin System
 
-## 🛠️ Usage
-```bash
-# Create a new project
-python -m aidev create "project description"
-
-# Get help
-python -m aidev --help
-```
-
-## 📝 License
-MIT
-
+📄 License
+MIT License © 2025 Syed Mujtaba Abbas Zaidi
